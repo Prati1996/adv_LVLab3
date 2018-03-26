@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -45,9 +45,15 @@
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Notifiers" Type="Folder">
+				<Item Name="Create Notifiers.vi" Type="VI" URL="../../../../Laboratorium 2/KOD/Course Project/support/Notifiers/Create Notifiers.vi"/>
+				<Item Name="Notifiers.ctl" Type="VI" URL="../../../../Laboratorium 2/KOD/Course Project/support/Notifiers/Notifiers.ctl"/>
+			</Item>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Boiler System Globals.vi" Type="VI" URL="../support/Boiler System Globals.vi"/>
+			<Item Name="Boiler System open.vi" Type="VI" URL="../../../../Laboratorium 2/KOD/Course Project/support/Boiler System open.vi"/>
+			<Item Name="Boiler.lvlib" Type="Library" URL="../support/Boiler/Boiler.lvlib"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
